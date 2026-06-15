@@ -14,8 +14,8 @@ export class Cita {
   @Column({ type: 'text' })
   motivo: string;
 
-  @Column({ type: 'varchar', length: 255, default: 'sin_foto' })
-  rutaFoto: string;
+  @Column({ type: 'text', default: 'sin_foto' })
+    rutaFoto: string;
 
   @Column({ type: 'varchar', length: 150 })
   pacienteEmail: string;
