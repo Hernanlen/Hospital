@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DoctoresService } from './doctores.service';
 import { DoctoresController } from './doctores.controller';
-import { Doctor } from './entities/doctore.entity';
+import { Doctor } from './entities/doctores.entity';
 
 @Module({
   // Importamos la entidad aquí para que el ORM la reconozca
